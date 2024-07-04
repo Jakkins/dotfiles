@@ -3,9 +3,9 @@
 help() {
     echo "Usage: $0 [options]"
     echo "Options:"
-    echo "  --overwrite-locals, -ol  Overwrite local configuration files"
-    echo "  --overwrite-users,  -ou  Overwrite user configuration files"
-    echo "  --help, -h               Show this help message"
+    echo "  --overwrite-locals   Overwrite local configuration files"
+    echo "  --overwrite-users    Overwrite user configuration files"
+    echo "  --help, -h           Show this help message"
     exit 0
 }
 
@@ -14,11 +14,11 @@ overwrite_users=false
 
 while true; do
     case $1 in
-        --overwrite-locals | -ol)
+        --overwrite-locals)
             overwrite_locals=true
             break
             ;;
-        --overwrite-users | -ou)
+        --overwrite-users)
             overwrite_users=true
             break
             ;;
