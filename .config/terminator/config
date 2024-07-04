@@ -1,0 +1,20 @@
+[global_config]
+  window_state = hidden
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 10000000
+    word_chars = ""
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
