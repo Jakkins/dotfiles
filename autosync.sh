@@ -3,7 +3,7 @@
 # save ~/.config/hypr/hyprland.conf
 # save ~/.config/waybar
 # save ~/.config/terminator
-declare -a configs=("hypr" "waybar" "terminator")
+declare -a configs=("hypr" "waybar" "terminator" "pcmanfm")
 
 for config in "${configs[@]}"; do
   local_config_path=".config/$config"
