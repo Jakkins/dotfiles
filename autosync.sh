@@ -10,5 +10,5 @@ for config in "${configs[@]}"; do
   
   rm -rf $local_config_path
   mkdir -p $local_config_path
-  cp ~/.config/$config/* $local_config_path/
+  cp -r ~/.config/$config/* $local_config_path/
 done
